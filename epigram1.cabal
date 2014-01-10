@@ -1,0 +1,21 @@
+name: epigram1
+version: 1.0
+cabal-version: >=1.2
+build-type: Simple
+license: AllRightsReserved
+license-file: ""
+description: Epigram1
+data-dir: ""
+
+executable epigram1
+    build-depends: array -any, base >=4.6
+    main-is: Main.lhs
+    buildable: True
+    extensions: OverlappingInstances UndecidableInstances
+                MultiParamTypeClasses FunctionalDependencies Rank2Types
+                ExistentialQuantification ScopedTypeVariables FlexibleContexts
+                FlexibleInstances PatternGuards TypeOperators NPlusKPatterns
+    hs-source-dirs: src
+    other-modules: Update Term Concrete Gadgets Utils Logic Category
+                   Monadics EditDoc Zip Compute Parser ObjKind Name Emacs Unify
+                   Boole Ewam Doc Equality Elab Box Interact Igor

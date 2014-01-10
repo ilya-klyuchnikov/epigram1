@@ -12,7 +12,7 @@
 > import Zip
 > import Parser
 > import Logic
-> import Array
+> import Data.Array
 
 > -- import Debug.Trace
 
