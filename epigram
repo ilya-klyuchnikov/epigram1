@@ -17,13 +17,6 @@
 #       sense if you have the source. 
 
 
-# a warning for the unwary - native XEmacs doesn't understand cygwin/unix paths
-if [ `uname -s | cut -c0-9` = 'CYGWIN_NT' ]; then 
-	echo "You should be using epigram.bat!";
-	exit;
-fi
-
-
 # tell emacs/Epigram what the root is, using a full name
 location=`dirname $0`
 fullpath=`(cd $location && pwd)`

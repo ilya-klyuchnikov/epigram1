@@ -1,4 +1,4 @@
-(load "emacs-epigram.elc")
+(load "emacs-epigram.el")
 
 (defun epigram-send-input ()
   (with-current-buffer underneath-buffer
